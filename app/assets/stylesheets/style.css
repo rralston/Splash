@@ -250,6 +250,7 @@ hr {
     border: 1px solid #CFD4D4;
     margin: 25px 0;
 }
+
 .stracture {width:960px;margin:0 auto;display:block;}
 
 .item2
@@ -369,7 +370,7 @@ color:#303030!important;
     overflow: hidden;
 }
 .logo{
-    background: url("/assets/logo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: asset_url("/assets/logo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
     float: left;
     height: 32px;
     width: 101px;
@@ -379,7 +380,7 @@ color:#303030!important;
 
  }
 .search input {
-    background: url("/assets/bg_search.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: asset_url("/assets/bg_search.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
     border: 0 none;
     color: #9FA2A2;
     float: left;
@@ -414,58 +415,58 @@ margin:7px 4px 0 0;
 
 .hd
 {
-background:url(/assets/d1_h.png) left top no-repeat;
+background:asset_url(/assets/d1_h.png) left top no-repeat;
 }
 
 .hd:hover
 {
-background:url(/assets/d1.png) left top no-repeat;
+background:asset_url(/assets/d1.png) left top no-repeat;
 }
 
 .hd2
 {
 height:25px;
-background:url(/assets/d2_h.png) left top no-repeat;
+background:asset_url(/assets/d2_h.png) left top no-repeat;
 }
 
 .hd2:hover
 {
-background:url(/assets/d2.png) left top no-repeat;
+background:asset_url(/assets/d2.png) left top no-repeat;
 }
 
 
 .hd3
 {
 
-background:url(/assets/d3_h.png) left top no-repeat;
+background:asset_url(/assets/d3_h.png) left top no-repeat;
 }
 
 .hd3:hover
 {
-background:url(/assets/d3.png) left top no-repeat;
+background:asset_url(/assets/d3.png) left top no-repeat;
 }
 
 
 .hd4
 {
-background:url(/assets/d4_h.png) left top no-repeat;
+background:asset_url(/assets/d4_h.png) left top no-repeat;
 }
 
 .hd4:hover
 {
-background:url(/assets/d4.png) left top no-repeat;
+background:asset_url(/assets/d4.png) left top no-repeat;
 }
 
 
 .hd5
 {
 height:25px;
-background:url(/assets/d5_h.png) left top no-repeat;
+background:asset_url(/assets/d5_h.png) left top no-repeat;
 }
 
 .hd5:hover
 {
-background:url(/assets/d5.png) left top no-repeat;
+background:asset_url(/assets/d5.png) left top no-repeat;
 }
 
 
@@ -523,7 +524,7 @@ background-color:#B9BDBD;
 {
 width:100%;
 float:left;
-background:url(/assets/banner_bg.jpg)  center center fixed;
+background:asset_url(/assets/banner_bg.jpg)  center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -715,7 +716,7 @@ float:left;
 width:182px;
 float:left;
 margin-bottom:12px;
-background:url(/assets/slide_img1.jpg) center top no-repeat;
+background:asset_url(/assets/slide_img1.jpg) center top no-repeat;
 text-align:center;
 color:#FFFFFF;
 font-size:16px;
@@ -727,7 +728,7 @@ text-shadow:1px 1px 1px #000;
 width:182px;
 float:left;
 margin-bottom:12px;
-background:url(/assets/slide_img2.jpg) center top no-repeat;
+background:asset_url(/assets/slide_img2.jpg) center top no-repeat;
 text-align:center;
 color:#FFFFFF;
 font-size:16px;
@@ -879,7 +880,7 @@ font-size:14px;
 {
 width:100%;
 float:left;
-background:url(/assets/about_banner_bg.jpg)  center center fixed;
+background:asset_url(/assets/about_banner_bg.jpg)  center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -906,7 +907,7 @@ font-size:14px;
 {
 width:100%;
 float:left;
-background:url(/assets/line_bg.gif) center top no-repeat;
+background:asset_url(/assets/line_bg.gif) center top no-repeat;
 font-family: 'Roboto Condensed', sans-serif;
 text-transform:uppercase;
 font-size:14px;
@@ -1060,7 +1061,7 @@ float:right;
 {
 width:100%;
 float:left;
-background:url(/assets/line_bg2.gif) center 70px no-repeat;
+background:asset_url(/assets/line_bg2.gif) center 70px no-repeat;
 font-family: 'Roboto Condensed', sans-serif;
 text-transform:uppercase;
 font-size:14px;
@@ -1122,7 +1123,7 @@ color:#FFFFFF;
 width:100%;
 float:left;
 margin-top:20px;
-background:url(/assets/line_bg.gif) center top no-repeat;
+background:asset_url(/assets/line_bg.gif) center top no-repeat;
 font-family: 'Roboto Condensed', sans-serif;
 text-transform:uppercase;
 font-size:14px;
@@ -1153,7 +1154,7 @@ margin:auto;
 {
 width:218px;
 float:left;
-background:url(/assets/like_bg.png) center top no-repeat;
+background:asset_url(/assets/like_bg.png) center top no-repeat;
 }
 .like_img
 {
@@ -1191,7 +1192,7 @@ font-size: 12px;
 width:25px;
 height:1px;
 position:absolute;
-content:url(/assets/bor_img2.gif);
+content:asset_url(/assets/bor_img2.gif);
 margin-left:10px;
 margin-top:12px;
 }
@@ -1200,7 +1201,7 @@ margin-top:12px;
 width:31px;
 height:1px;
 position:absolute;
-content:url(/assets/bor_img1.gif);
+content:asset_url(/assets/bor_img1.gif);
 margin-left:55px;
 margin-top:-18px;
 }
@@ -1210,7 +1211,7 @@ float:right;
 }
 .like_center
 {
-background:url(/assets/like_bg2.png) center top no-repeat;
+background:asset_url(/assets/like_bg2.png) center top no-repeat;
 margin-top:84px;
 margin-left:-20px;
 margin-right:-20px;
@@ -1227,7 +1228,7 @@ margin-top:236px;
 width:100%;
 float:left;
 margin-top:20px;
-background:url(/assets/line_bg3.gif) center 120px no-repeat;
+background:asset_url(/assets/line_bg3.gif) center 120px no-repeat;
 font-family: 'Roboto Condensed', sans-serif;
 text-transform:uppercase;
 font-size:12px;
@@ -1252,7 +1253,7 @@ margin-top:20px;
 {
 width:218px;
 float:left;
-background:url(/assets/like_bg5.png) center top no-repeat;
+background:asset_url(/assets/like_bg5.png) center top no-repeat;
 text-align:center;
 font-size:12px;
 font-family: 'Roboto Condensed', sans-serif;
@@ -1276,7 +1277,7 @@ margin:0 -20px 0 -20px;
 {
 width:218px;
 float:left;
-background:url(/assets/like_bg3.png) center top no-repeat;
+background:asset_url(/assets/like_bg3.png) center top no-repeat;
 text-align:center;
 font-size:12px;
 font-family: 'Roboto Condensed', sans-serif;
@@ -1292,7 +1293,7 @@ font-size:78px;
 {
 width:158px;
 float:left;
-background:url(/assets/like_bg4.png) center top no-repeat;
+background:asset_url(/assets/like_bg4.png) center top no-repeat;
 text-align:center;
 font-size:12px;
 font-family: 'Roboto Condensed', sans-serif;
@@ -1316,7 +1317,7 @@ padding-top:20px;
 {
 width:100%;
 float:left;
-background:url(/assets/footer_bg.png) center center fixed;
+background:asset_url(/assets/footer_bg.png) center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -1335,7 +1336,7 @@ letter-spacing:-1px;
 width:447px;
 float:right;
 height:360px;
-background:url(/assets/red_bg.png) right bottom no-repeat;
+background:asset_url(/assets/red_bg.png) right bottom no-repeat;
 }
 
 .connect_in
@@ -1399,7 +1400,7 @@ position:relative;
 {
 width:32px;
 height:39px;
-background:url(/assets/arrow-2.jpg) center top no-repeat;
+background:asset_url(/assets/arrow-2.jpg) center top no-repeat;
 display:inline-block;
 margin:0 auto!important;
 position:relative;
@@ -1546,14 +1547,14 @@ padding:10px 0 20px 0;
 
 	.open
 	{
-	background:url(/assets/plus_img.jpg) right top no-repeat;
+	background:asset_url(/assets/plus_img.jpg) right top no-repeat;
 	font-size:18px;
 	padding:4px 0;
 	}
 
 	.active
 	{
-	background:url(/assets/plus_img2.jpg) right top no-repeat;
+	background:asset_url(/assets/plus_img2.jpg) right top no-repeat;
 	}
 
 
@@ -1794,7 +1795,7 @@ padding:20px 0 30px 0;
 width:190px;
 float:left;
 border:1px solid #A09F9F;
-background:#A09F9F url(/assets/pay_bg_1.gif) 170px bottom no-repeat;
+background:#A09F9F asset_url(/assets/pay_bg_1.gif) 170px bottom no-repeat;
 padding:5px 10px 30px 10px;
 color:#525050;
 font-size:14px;
@@ -1813,7 +1814,7 @@ font-weight:normal;
 width:190px;
 float:left;
 border:1px solid #D3D1D1;
-background:#D3D1D1 url(/assets/pay_bg_2.gif) 170px bottom no-repeat;
+background:#D3D1D1 asset_url(/assets/pay_bg_2.gif) 170px bottom no-repeat;
 padding:5px 10px 30px 10px;
 color:#525050;
 font-size:14px;
@@ -1826,7 +1827,7 @@ margin-right:2px;
 width:190px;
 float:left;
 border:1px solid #D3D1D1;
-background:#EFEFEF url(/assets/pay_bg_3.gif) 170px bottom no-repeat;
+background:#EFEFEF asset_url(/assets/pay_bg_3.gif) 170px bottom no-repeat;
 padding:5px 10px 30px 10px;
 color:#525050;
 font-size:14px;
@@ -1938,7 +1939,7 @@ margin:30px 0 40px 0;
 {
 width:100%;
 float:left;
-background:url(/assets/black_bg.gif);
+background:asset_url(/assets/black_bg.gif);
 }
 
 /*opportunities page code*/
